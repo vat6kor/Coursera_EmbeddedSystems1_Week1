@@ -27,7 +27,7 @@
 /* Size of the Data Set */
 #define SIZE (40)
 
-void main() {
+int main() {
 
   unsigned char test[SIZE] = { 34, 201, 190, 154,   8, 194,   2,   6,
                               114, 88,   45,  76, 123,  87,  25,  23,
@@ -35,9 +35,53 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
+                                
+
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+    return 0;
 
 }
 
-/* Add other Implementation File Code Here */
+error_code_t print_statistics(){
+
+	return 0;
+}
+
+error_code_t print_array(uint8_t const * data, uint8_t size){
+
+	return 0;
+
+}
+
+error_code_t find_median(uint8_t const * data, uint8_t size, uint8_t * median){
+
+	return 0;
+
+}
+
+error_code_t find_mean(uint8_t const * data, uint8_t size, uint8_t * mean){
+
+	return 0;
+
+}
+
+error_code_t find_maximum(uint8_t const * data, uint8_t size, uint8_t * maximum){
+
+	return 0;
+
+}
+
+error_code_t find_minimum(uint8_t const * data, uint8_t size, uint8_t * minimum){
+
+	return 0;
+
+}
+
+
+error_code_t sort_array(uint8_t * data, uint8_t size){
+
+	return 0;
+
+}
+

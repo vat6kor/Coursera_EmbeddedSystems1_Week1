@@ -12,7 +12,9 @@
  * @file stats.c
  * @brief contains definition of functions declared in stats.h and the main function 
  *
- * <Add Extended Description Here>
+ * This file implements the prototypes defined in stats.h. In addition the main function
+ * is also present here. The needed functions are called within the main function
+ * to demonstrate the working of the stats functions.
  *
  * @author Vinay Sathyanarayana
  * @date 08.Apr.2021

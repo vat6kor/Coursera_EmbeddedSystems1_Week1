@@ -74,7 +74,7 @@ uint8_t find_median(uint8_t* data, uint8_t size){
 	uint8_t median = 0;
 
 	if(size%2==0)
-		median = (data[size/2]+data[size/2+1])/2;
+		median = (data[size/2]+data[(size-1)/2])/2;
 	else
 		median = data[size/2+1];
 

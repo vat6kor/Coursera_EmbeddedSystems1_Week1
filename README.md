@@ -5,4 +5,4 @@ stats is a simple module written in C which offers functions to calculate and pr
 ## metadata
 
 Author: Vinay Sathyanarayana
-email: vinaysprings@gmail.com
+email: vinaychanakya@gmail.com
